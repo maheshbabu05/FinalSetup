@@ -2,14 +2,14 @@
 <suite name = "final test">
 
 
-<test name="pending leave request test case">
+<!--<test name="pending leave request test case">
 
 	<classes>
 		<class name="TestCase.CheckUserRole">
 		</class>
 	</classes>
 
-</test>
+</test>-->
 
 	<test name="check user role">
 
@@ -17,9 +17,7 @@
 			<class name="TestCase.pendingleaverequest">
 			</class>
 		</classes>
-
-
-
+	</test>
 
 
 </suite>

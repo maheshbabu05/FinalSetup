@@ -31,7 +31,7 @@ public class CommonFunctions {
 		loadpropertyfile();
 		String browser = properties.getProperty("browser");
 		String url= properties.getProperty("url");
-		String driverlocation=properties.getProperty("./Drivers/chromedriver.exe");
+		String driverlocation=properties.getProperty("./Driver/chromedriver.exe");
 		
 		if (browser.equalsIgnoreCase("chrome")) {
 			

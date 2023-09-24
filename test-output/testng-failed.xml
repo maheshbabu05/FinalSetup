@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [final test]">
+  <test thread-count="5" name="check user role(failed)">
+    <classes>
+      <class name="TestCase.pendingleaverequest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="teardown"/>
+          <include name="verifyPendingLeaverequest"/>
+        </methods>
+      </class> <!-- TestCase.pendingleaverequest -->
+    </classes>
+  </test> <!-- check user role(failed) -->
+</suite> <!-- Failed suite [final test] -->
